@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 body {
-  color: red;
+  color: rgb(110, 17, 198);
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
@@ -53,4 +53,11 @@ nav{
 .nav__link--anchor-primary:hover {
   background-color: #5d3eff;
   transition: all 0.3s ease-in-out;
+}
+
+.personal__logo {
+  font-size: 24px;
+  color: #6030b1;
+  margin: 0 12px;
+  font-weight: bold;
 }
