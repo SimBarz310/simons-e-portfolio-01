@@ -82,7 +82,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 
 .about-me__container {
@@ -94,16 +94,19 @@ nav{
 }
 
 .about-me__picture--mask {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+
 }
 
 .about-me__picture {
   width: 100%;
-  
+ 
 /*PICTURE IMPROVEMENTS*/
 transform: scale(1.5);
 }
