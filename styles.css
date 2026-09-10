@@ -85,6 +85,13 @@ nav{
 
 }
 
+.about-me__picture {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
 .about-me__container {
   display: flex;
   justify-content: space-between;
@@ -98,7 +105,7 @@ nav{
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
   display: block;
   margin: 0 auto;
 
@@ -106,9 +113,12 @@ nav{
 
 .about-me__picture {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
  
 /*PICTURE IMPROVEMENTS*/
-transform: scale(1.5);
+transform: scale(1.5)
+padding-top: 20px;
 }
 
 
