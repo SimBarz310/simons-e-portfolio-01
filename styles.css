@@ -86,7 +86,6 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .about-me__picture {
@@ -96,11 +95,11 @@ nav{
   object-position: 50% 20%;
 }
 
-.about-me__container {
+.about-me__info--container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
