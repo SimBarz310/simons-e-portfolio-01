@@ -141,5 +141,6 @@ transform: scale(1.5);
 }
 
 .about-me__link {
-  font-size: 16px;
+  color: #6633cc;
+  font-size: 24px;
 }
