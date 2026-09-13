@@ -101,6 +101,23 @@ nav{
   align-items: center;
   max-width: 500px;
   margin: 0 auto;
+  flex-direction: column;
+}
+.about-me__info--paragraph {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  line-height: 1.5;
+  color:black
+}
+.about-me__info--paragraph .text--purple {
+  color: #6030b1;
+  text-decoration: none;
+  font-weight: bold;
+}
+.about-me__info--title .text--purple{
+  color: #6030b1;
+  font-size: 36px;
 }
 
 .about-me__picture--mask {
@@ -123,4 +140,6 @@ nav{
 transform: scale(1.5);
 }
 
-
+.about-me__link {
+  font-size: 16px;
+}
