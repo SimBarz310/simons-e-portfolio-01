@@ -142,5 +142,7 @@ transform: scale(1.5);
 
 .about-me__link {
   color: #6633cc;
-  font-size: 24px;
+  font-size: 32px;
+  text-decoration: none;
+  padding : 0 16px;
 }
