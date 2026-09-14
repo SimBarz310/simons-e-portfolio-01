@@ -181,20 +181,23 @@ nav {
 /*TECH - STACK*/
 
 .language {
-  width: 25%;
+  width: auto;
 }
 .language__img {
   width: 100%;
   max-width: 100px;
+  padding: 24px;
 }
 
 .language_img--wrapper {
   display: flex;
-  justify-content: center;
+  
   align-items: center;
 }
 
 .language__list {
   display: flex;
   width: 100%;
+  justify-content: center;
+  gap: 24px;
 }
