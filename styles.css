@@ -33,11 +33,25 @@ li{
   flex: 1;
 }
 
+.container {
+  padding: 50px 0;
+}
+
 .row {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
+
+section:nth-child(even) {
+  background-color:#f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
+
+
 /* NAVIGATION BAR */
 nav{
   height: 100px;
@@ -86,6 +100,11 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about-me__info {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me__picture {
@@ -144,5 +163,22 @@ transform: scale(1.5);
   color: #6633cc;
   font-size: 32px;
   text-decoration: none;
-  padding : 0 16px;
+  padding : 16px 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
+}
+
+/*TECH - STACK*/
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
 }
