@@ -189,7 +189,8 @@ nav {
 
 .language__img {
   width: 100%;
-  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
   padding: 24px;
   transition: all 0.3s ease;
 }
@@ -200,7 +201,8 @@ nav {
   transform: scale(0.9);
 }
 
-.language_img--wrapper {
+.language__img--wrapper {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,7 +211,9 @@ nav {
 .language__name {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
   color:#242424;
   transform: scale(0);
 
