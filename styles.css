@@ -181,7 +181,7 @@ nav {
 /*TECH - STACK*/
 
 .language {
-  width: auto;
+  width: 25%;
   display: flex;
   justify-content: center;
   position: relative;
