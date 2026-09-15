@@ -210,7 +210,9 @@ nav {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  color:#242424;
+  transform: scale(0);
+
 }
 
 .language__list {
@@ -218,4 +220,8 @@ nav {
   width: 100%;
   justify-content: center;
   gap: 24px;
+}
+
+.language:hover .language__name {
+  transform: scale(1);
 }
