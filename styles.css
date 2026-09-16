@@ -92,9 +92,12 @@ nav {
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
   margin: 0 12px;
   font-weight: bold;
+}
+
+.text--purple {
+  color: #6030b1;
 }
 
 /*ABOUT-ME*/
@@ -133,13 +136,15 @@ nav {
   color: black;
 }
 .about-me__info--paragraph .text--purple {
-  color: #6030b1;
   text-decoration: none;
   font-weight: bold;
 }
 .about-me__info--title .text--purple {
-  color: #6030b1;
   font-size: 36px;
+}
+
+.text--purple {
+  color:#6030b1;
 }
 
 .about-me__picture--mask {
