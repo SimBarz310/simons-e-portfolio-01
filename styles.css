@@ -275,3 +275,20 @@ nav {
 .project__list {
   padding-top: 40px;
 }
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+  max-width: 550px;
+}
+
+.project__description--title,
+.project__description--sub-title,
+.project__description--parp, 
+.project__description--parp {
+  text-align: left;
+  color: #fff;
+
+}
