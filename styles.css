@@ -28,6 +28,26 @@ P {
 
 a {
   text-decoration: none;
+  position: relative;
+}
+
+.link__hover-efect {
+  position: relative;
+}
+
+.link__hover-effect:after {
+  content:"";
+  position: absolute;
+  height: 3px;
+  background-color: black;
+  width: 100%;
+  bottom: -3px;
+  transition: all 300ms ease;
+}
+
+.link__hover-effect:hover:after {
+  left: o;
+  width: 100%;
 }
 
 li {
@@ -329,6 +349,15 @@ footer {
   background-color: #242424;
 }
 
+.footer__logo {
+  margin-bottom: 20px;
+
+}
+
+.footer__social--list {
+  margin-bottom: 28px;
+
+}
 .footer__row {
   display: flex;
   flex-direction: column;
