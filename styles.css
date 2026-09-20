@@ -79,6 +79,7 @@ li {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
 section:nth-child(even) {
@@ -407,4 +408,31 @@ footer {
 .footer__anchor:hover .footer__logo--popper {
   transform:translateX(60px);
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+ nav {
+  height: 68px;
+ }
+
+ h1 {
+  font-size: 28px;
+ }
+
+ .about-me__info--paragraph {
+  font-size: 18px;
+ }
+
+ .language {
+  width: calc(100% / 2);
+ }
+
+ .project__description--para {
+  font-size: 14px;
+ }
+
+ .project__description {
+  left: 30px;
+  padding-right: 30px;
+ }
 }
