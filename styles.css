@@ -21,6 +21,10 @@ h1 {
   font-size: 36px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 P {
   line-height: 1.5;
   font-size: 16px;
@@ -40,14 +44,19 @@ a {
   position: absolute;
   height: 3px;
   background-color: black;
-  width: 100%;
+  width: 0;
+  left: 0;
   bottom: -3px;
   transition: all 300ms ease;
 }
 
+.link__hover-efect--white {
+  background-color: #fff;
+}
+
 .link__hover-effect:hover:after {
   left: o;
-  width: 100%;
+  width: 100%
 }
 
 li {
@@ -261,7 +270,7 @@ nav {
 /*PROJECTS*/
 
 .project {
-  margin: 135px;
+  margin: 35px;
 }
 
 .project:last-chid {
@@ -349,20 +358,18 @@ footer {
   background-color: #242424;
 }
 
-.footer__logo {
-  margin-bottom: 20px;
-
-}
 
 .footer__social--list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   margin-bottom: 28px;
-
 }
 .footer__row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 8% 0;
 }
 
@@ -371,7 +378,34 @@ footer {
   height: 70px;
 }
 
-.footer__social--link,
-.footer__copyright {
+.footer__social--link {
+  width: 70px;
+  height: 70px;
   color: #fff;
+
+}
+
+.footer__copyright,
+.footer__logo--popper {
+  color: #fff;
+}
+
+.footer__logo--popper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.footer__anchor {
+  margin-bottom: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.footer__anchor:hover .footer__logo--popper {
+  transform:translateX(60px);
+  opacity: 1;
 }
